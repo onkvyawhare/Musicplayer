@@ -79,7 +79,7 @@ useEffect(()=>{
 const [artist,setartist]=useState([]);
 const [songs,setsong]=useState([]);
 const [playlist,setplaylist]=useState([]);
-const URL = "https://meta-tunes.onrender.com";
+const URL = "https://musicplayer-5dl6.onrender.com";
   const func1 =async()=>{
     try{
      const api =`${URL}/common/getallthree`;

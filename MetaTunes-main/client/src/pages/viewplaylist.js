@@ -24,7 +24,7 @@ const Viewplaylist = () => {
     const user = JSON.parse(localStorage.getItem("user"));
     const [playlist , setplaylist]=useState({});
     const [show , setshow] = useState(false);
-    const URL= "https://meta-tunes.onrender.com";
+    const URL= "https://musicplayer-5dl6.onrender.com";
     const [temp,settemp]=useState({});
     const [array , setarray]=useState([]);
     const func =async()=>{

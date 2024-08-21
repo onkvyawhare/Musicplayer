@@ -19,7 +19,7 @@ const Categories = () => {
      funct();
        // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
-  const URL ="https://meta-tunes.onrender.com";
+  const URL ="https://musicplayer-5dl6.onrender.com";
   const funct= async()=>{
     try{
         const api =`${URL}/common/categories/${id}`;

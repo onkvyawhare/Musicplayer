@@ -28,7 +28,7 @@ const Artistdetail = () => {
   const [array , setarray]=useState([]);
     const [artist,setartist]=useState({});
     const [show,setshow]=useState(false);
-    const URL= "https://meta-tunes.onrender.com";
+    const URL= "https://musicplayer-5dl6.onrender.com";
     useEffect(()=>{
       document.body.style.overflowY="scroll"
     },[])
@@ -128,11 +128,11 @@ useEffect(()=>{
         <div className="others">
           <div className="headery">
             <div className="imagee">
-              <img src={artist.artist.imageURL} alt="hey" />
+              <img src={artist.imageURL} alt="hey" />
             </div>
             <div className="info">
-              <h1>{artist.artist.name}</h1>
-              <p>{artist.artist.note}</p>
+              <h1>{artist.name}</h1>
+              <p>{artist.note}</p>
             </div>
           </div>
           <div className="lineyy"></div>

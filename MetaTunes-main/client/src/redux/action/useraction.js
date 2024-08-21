@@ -13,7 +13,7 @@ import{
 } from '../actiontypes';
 import { LOGINCOLOR , USEREXIT } from '../propsaction';
 
-const URL= "https://meta-tunes.onrender.com";
+const URL= "https://musicplayer-5dl6.onrender.com";
 // const URL = "http://localhost:8000"
 
 export const getdetails=(data)=>async(dispatch)=>{
@@ -88,7 +88,7 @@ export const getallsong=(username)=>async(dispatch)=>{
         const obj={
           username:username
         }
-       const res = await fetch("https://meta-tunes.onrender.com/common/getsongs",{
+       const res = await fetch("https://musicplayer-5dl6.onrender.com/common/getsongs",{
         method: "POST",
         headers: {
           "Content-Type":"application/json"
