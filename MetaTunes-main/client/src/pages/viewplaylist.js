@@ -56,6 +56,7 @@ const Viewplaylist = () => {
         console.log("heey");
         let songey =[];
         const songs = JSON.parse(localStorage.getItem("song"));
+        console.log(songs);
         let idx =[];
             for(var i=0;i<temp.songs.length;i++){
                 for(var j=0;j<songs.length;j++){
