@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors({
-    origin:"http://localhost:3000",
+    origin:"https://musicplayer-nye5.vercel.app",
 	credentials:true,
 }
 
